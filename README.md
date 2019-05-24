@@ -84,7 +84,7 @@ npm install -g eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-
 ```
 ### Node.js
 
-Finally, we will set up a runtime for using javascript from the terminal. For wdi, we will use nvm, a version manager for the Node runtime.
+Finally, we will set up a runtime for using javascript from the terminal. For SEI, we will use nvm, a version manager for the Node runtime.
 
 You can install nvm with the following terminal command:
 Copying + pasting this is strongly recommended.
