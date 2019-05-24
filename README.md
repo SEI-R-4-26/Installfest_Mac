@@ -72,7 +72,7 @@ brew cask install visual-studio-code
 
 ### Node.js
 
-Finally, we will set up a runtime for using javascript from the terminal. For wdi, we will use nvm, a version manager for the Node runtime.
+Finally, we will set up a runtime for using javascript from the terminal. For sei, we will use nvm, a version manager for the Node runtime.
 
 You can install nvm with the following terminal command:
 Copying + pasting this is strongly recommended.
