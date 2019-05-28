@@ -72,7 +72,7 @@ brew cask install visual-studio-code
 
 Open VS Code by typing `code` at the terminal.
 
-Type `Command-P` and type `settings.json` to open the settings.json config file.
+Type `Command + comma` and click the double curly braces on the top right to open the settings.json config file.
 
 Copy and paste the options from the following gist and save:
 
