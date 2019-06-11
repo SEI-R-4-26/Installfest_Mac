@@ -2,7 +2,7 @@
 First install `rbenv`, a Ruby version manager with:
 
 ```
-brew install rbenv rbenv-build
+brew install rbenv ruby-build
 ```
 
 Then initialize rbenv with
