@@ -1,11 +1,13 @@
 ### Ruby
-First install `rbenv`, a Ruby version manager with:
+
+
+1. First install `rbenv`, a Ruby version manager with:
 
 ```
 brew install rbenv ruby-build
 ```
 
-Now we need to setup rbenv to load into terminal everytime we open terminal. Run the command:
+2. Now we need to setup rbenv to load into terminal everytime we open terminal. Run the command:
 ```shell
 code ~/.zshrc
 ```
@@ -16,9 +18,9 @@ at the very bottom of this file, add the following line:
 eval "$(rbenv init -)"
 ```
 
-Close your terminal window and open a new one.
+3. Close your terminal window and open a new one.
 
-we can test to see if we're using rbenv by typing the command in terminal:
+4. we can test to see if we're using rbenv by typing the command in terminal:
 
 ```shell
 which ruby
@@ -32,13 +34,13 @@ whit should return a line that looks something like this:
 
 ```
 
-Now install the current version of Ruby with
+5. Now install the current version of Ruby with
 
 ```
 rbenv install 2.6.4
 ```
 
-We will also need to set this new ruby version as our default version. We can do this with: 
+6. We will also need to set this new ruby version as our default version. We can do this with: 
 
 ```shell
 rbenv global 2.6.4
