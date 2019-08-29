@@ -1,5 +1,6 @@
-### Ruby
+# Ruby
 
+## Installing RBENV for ruby version control
 
 1. First install `rbenv`, a Ruby version manager with:
 
@@ -34,13 +35,15 @@ whit should return a line that looks something like this:
 
 ```
 
-5. Now install the current version of Ruby with
+## Installing Ruby
+
+1. Now install the current version of Ruby with
 
 ```
 rbenv install 2.6.4
 ```
 
-6. We will also need to set this new ruby version as our default version. We can do this with: 
+2. We will also need to set this new ruby version as our default version. We can do this with: 
 
 ```shell
 rbenv global 2.6.4
