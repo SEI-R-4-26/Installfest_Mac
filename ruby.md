@@ -51,7 +51,7 @@ rbenv global 2.6.4
 
 we can check this with:
 ```shell
-ruby --version
+ruby versions
 ```
 
 we should see an asterisk next to `2.6.4`
