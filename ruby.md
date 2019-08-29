@@ -15,5 +15,5 @@ Close your terminal window and open a new one.
 Now install the current version of Ruby with
 
 ```
-rbenv install 2.6.3
+rbenv install 2.6.4
 ```
