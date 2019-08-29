@@ -72,24 +72,6 @@ brew install git
 brew install tree
 ```
 
-### VS Code
-
-```
-brew cask install visual-studio-code
-```
-
-Open VS Code by typing `code` at the terminal.
-
-Type `Command + comma` and click the icon on the top right to open the settings.json config file.
-
-Copy and paste the options from the following gist and save:
-
-https://gist.git.generalassemb.ly/axylos/01807df8810b8e7e0cb8005d3641fd41
-
-Finally, install the required linter packages with the following line in the terminal:
-```
-npm install -g eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
-```
 ### Node.js
 
 Finally, we will set up a runtime for using javascript from the terminal. For SEI, we will use nvm, a version manager for the Node runtime.
@@ -99,13 +81,30 @@ Copying + pasting this is strongly recommended.
 
 
 ```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
 
 Ensure that node is installed with the following commands.
 
 ```
-nvm install 12.2
-nvm use 12.2
-nvm alias default 12.2
+nvm install 12.9.1
+```
+
+### VS Code
+
+```
+brew cask install visual-studio-code
+```
+
+Open VS Code by typing `code` at the terminal.
+
+Type `Command + comma` and click this icon ![](settings.png) on the top right to open the settings.json config file.
+
+Copy and paste the options from the following gist and save:
+
+https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97c
+
+Finally, install the required linter packages with the following line in the terminal:
+```
+npm install -g eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
 ```
