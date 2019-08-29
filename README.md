@@ -26,7 +26,22 @@ Install homebrew from the command line with the command:
 
 This install script will tell you the files it will create and ask for your password. **YOUR PASSWORD WILL NOT DISPLAY**, just keep typing.
 
-After the install, brew will print an output describing where to find more information on how to use it.
+After the install, you should see this printed in your terminal:
+
+```shell
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+==> Next steps:
+- Run `brew help` to get started
+- Further documentation: 
+    https://docs.brew.sh
+```
 
 ### Oh-My-Zsh!
 First, we will change the default "shell" or terminal environment to use one that is more friendly for developers.
@@ -38,22 +53,15 @@ brew install zsh zsh-completions
 
 Verify installation by running `zsh --version`. Expected result: zsh 5.1.1 or more recent.
 
-Make it your default shell: 
-```
-chsh -s $(which zsh)
-```
-
-Log out and login back again to use your new default shell.
-Test that it worked with 
-```echo $SHELL```
-
-Expected result: /bin/zsh or similar.
-
 Install oh-my-zsh 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+Close and reopen your terminal app again to use your new default shell.
+Test that it worked with 
+```echo $SHELL```
+Expected result: /bin/zsh or similar.
 
 ### Git
 Let's install `git` and a nifty helper for viewing files in the command line, `tree`.
@@ -72,7 +80,7 @@ brew cask install visual-studio-code
 
 Open VS Code by typing `code` at the terminal.
 
-Type `Command + comma` and click the double curly braces on the top right to open the settings.json config file.
+Type `Command + comma` and click the icon on the top right to open the settings.json config file.
 
 Copy and paste the options from the following gist and save:
 
