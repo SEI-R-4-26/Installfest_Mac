@@ -5,15 +5,48 @@ First install `rbenv`, a Ruby version manager with:
 brew install rbenv ruby-build
 ```
 
-Then initialize rbenv with
+Now we need to setup rbenv to load into terminal everytime we open terminal. Run the command:
+```shell
+code ~/.zshrc
 ```
-rbenv init
+
+at the very bottom of this file, add the following line:
+
+```
+eval "$(rbenv init -)"
 ```
 
 Close your terminal window and open a new one.
+
+we can test to see if we're using rbenv by typing the command in terminal:
+
+```shell
+which ruby
+```
+
+whit should return a line that looks something like this:
+
+```shell
+
+/Users/<YourUsernameHere>/.rbenv/shims/ruby
+
+```
 
 Now install the current version of Ruby with
 
 ```
 rbenv install 2.6.4
 ```
+
+We will also need to set this new ruby version as our default version. We can do this with: 
+
+```shell
+rbenv global 2.6.4
+```
+
+we can check this with:
+```shell
+ruby --version
+```
+
+we should see an asterisk next to `2.6.4`
