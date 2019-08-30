@@ -118,5 +118,5 @@ If you have a user of "David Whitlatch", you would return something like `/Users
 
 Finally, install the required linter packages with the following line in the terminal:
 ```
-npm install -g eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
+npm install -g eslint-config-airbnb-base eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
 ```
