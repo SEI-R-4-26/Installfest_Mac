@@ -2,6 +2,8 @@
 
 ![](giphy.gif)
 
+Photo Credit: Erinn Nelson
+
 _Objectives_
 
 Install core packages and services for SEI.
