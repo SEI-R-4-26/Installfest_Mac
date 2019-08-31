@@ -1,4 +1,6 @@
-# Installfest
+# Installfest 2019
+
+![](giphy.gif)
 
 _Objectives_
 
