@@ -11,7 +11,7 @@ Install core packages and services for SEI.
 This includes:
 
 - Homebrew
-- nvm and Node.js 12.9.1 and npm 6.10.2
+- nvm and Node.js 12.16.1 and npm 6.13.4
 - rbenv and Ruby 2.6.4
 - Postgresql 11.5
 - VS Code 1.37
@@ -86,6 +86,8 @@ Copying + pasting this is strongly recommended.
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 ```
+
+Restart terminal. (cmd + Q and re-open)
 
 Ensure that node is installed with the following commands.
 
