@@ -84,13 +84,13 @@ Copying + pasting this is strongly recommended.
 
 
 ```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 ```
 
 Ensure that node is installed with the following commands.
 
 ```
-nvm install 12.9.1
+nvm install 12.16.1
 ```
 
 ### VS Code
