@@ -13,7 +13,6 @@ This includes:
 - Homebrew
 - nvm and Node.js 12.16.1 and npm 6.13.4
 - rbenv and Ruby 2.6.4
-- Postgresql 11.5
 - VS Code 1.37
 - git
 
