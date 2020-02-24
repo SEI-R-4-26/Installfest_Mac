@@ -13,9 +13,10 @@ brew install rbenv ruby-build
 code ~/.zshrc
 ```
 
-at the very bottom of this file, add the following line:
+at the very bottom of this file, add the following lines:
 
 ```
+export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
@@ -51,7 +52,7 @@ rbenv global 2.6.4
 
 we can check this with:
 ```shell
-ruby versions
+rbenv versions
 ```
 
 we should see an asterisk next to `2.6.4`
