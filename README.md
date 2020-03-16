@@ -2,7 +2,6 @@
 
 ![](giphy.gif)
 
-Photo Credit: Erinn Nelson
 
 _Objectives_
 
