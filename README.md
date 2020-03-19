@@ -2,7 +2,6 @@
 
 ![](giphy.gif)
 
-
 _Objectives_
 
 Install core packages and services for SEI.
@@ -103,4 +102,4 @@ Type `Command + comma` and click this icon ![](settings.png) on the top right to
 
 Copy and paste the options from the following gist and save:
 
-https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97
+https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97c
