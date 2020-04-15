@@ -1,8 +1,6 @@
-# Installfest 2019
+# Installfest 2020
 
 ![](giphy.gif)
-
-Photo Credit: Erinn Nelson
 
 _Objectives_
 
@@ -12,7 +10,6 @@ This includes:
 
 - Homebrew
 - nvm and Node.js 12.9.1 and npm 6.10.2
-- rbenv and Ruby 2.6.4
 - Postgresql 11.5
 - VS Code 1.37
 - git
@@ -107,20 +104,7 @@ Copy and paste the options from the following gist and save:
 
 https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97c
 
-On line 9 of the `settings.json`, replace `<YourUsernameHere>` (including the angle brackets) with your username.
-If you need help finding your username, type these commands into terminal:
+### iTerm 2
 
-```bash
-cd ~/
-pwd
-```
+`$ brew cask install iterm2`
 
-If you have a user of "David Whitlatch", you would return something like `/Users/davidwhitlatch`. That means that line 9 of `settings.json` will look like:
-```
-"eslint.nodePath": "/Users/davidwhitlatch/.nvm/versions/node/v12.9.1/lib/node_modules",
-```
-
-Finally, install the required linter packages with the following line in the terminal:
-```
-npm install -g eslint-config-airbnb-base eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
-```
