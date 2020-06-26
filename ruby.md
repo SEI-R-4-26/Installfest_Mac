@@ -41,13 +41,13 @@ whit should return a line that looks something like this:
 1. Now install the current version of Ruby with
 
 ```
-rbenv install 2.6.4
+rbenv install 2.7.1
 ```
 
 2. We will also need to set this new ruby version as our default version. We can do this with: 
 
 ```shell
-rbenv global 2.6.4
+rbenv global 2.7.1
 ```
 
 we can check this with:
@@ -55,4 +55,4 @@ we can check this with:
 rbenv versions
 ```
 
-we should see an asterisk next to `2.6.4`
+we should see an asterisk next to `2.7.1`
