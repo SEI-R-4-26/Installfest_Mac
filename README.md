@@ -9,7 +9,7 @@ Install core packages and services for SEI.
 This includes:
 
 - Homebrew
-- nvm and Node.js 12.16.1 and npm 6.13.4
+- nvm, Node.js and npm
 - VS Code
 - git
 
