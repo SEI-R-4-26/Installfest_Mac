@@ -42,8 +42,8 @@ Read the analytics documentation (and how to opt-out) here:
     https://docs.brew.sh
 ```
 
-### Oh-My-Zsh!
-First, we will change the default "shell" or terminal environment to use one that is more friendly for developers.
+### Zsh Time!
+First, we will change the default "shell" or terminal environment to one that is more friendly for developers.
 
 Open the `Terminal` app and type the following two commands (Hit `<Enter>` after each):
 ```
@@ -56,15 +56,48 @@ Install oh-my-zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+You may see this message:
+
+```shell
+Caveats
+To activate these completions, add the following to your .zshrc:
+
+  if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+    autoload -Uz compinit
+    compinit
+  fi
+
+You may also need to force rebuild `zcompdump`:
+
+  rm -f ~/.zcompdump; compinit
+
+Additionally, if you receive "zsh compinit: insecure directories" warnings when attempting
+to load these completions, you may need to run this:
+
+  chmod go-w '/usr/local/share'
+==> Summary
+🍺  /usr/local/Cellar/zsh-completions/0.32.0: 142 files, 1.1MB, built in 2 seconds
+```
+First we need to close our terminal and reopen it. You may get this message:
+
+```shell
+ zsh compinit: insecure directories, run compaudit for list.
+Ignore insecure directories and continue [y] or abort compinit [n]?
+
+```
+If so, type `y`.
+
+Next type `chmod go-w '/usr/local/share'` to remove this prompt.
 
 Close and reopen your terminal app again to use your new default shell.
-Test that it worked with 
+Test to see if it worked with 
 ```echo $SHELL```
 Expected result: /bin/zsh or similar.
 
 ### Git
 Let's install `git` and a nifty helper for viewing files in the command line, `tree`.
-
 
 ```
 brew install git
