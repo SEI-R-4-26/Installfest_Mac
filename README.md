@@ -89,7 +89,7 @@ Ignore insecure directories and continue [y] or abort compinit [n]?
 ```
 If so, type `y`.
 
-Next type `chmod go-w '/usr/local/share'` to remove this prompt.
+Next type `chmod go-w '/usr/local/share'` to activate the completions.
 
 Close and reopen your terminal app again to use your new default shell.
 Test to see if it worked with 
