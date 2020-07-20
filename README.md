@@ -94,7 +94,7 @@ Next type `chmod go-w '/usr/local/share'` to activate the completions.
 Close and reopen your terminal app again to use your new default shell.
 Test to see if it worked with 
 ```echo $SHELL```
-Expected result: /bin/zsh or similar.
+Expected result: `/bin/zsh` or similar.
 
 ### Git
 Let's install `git` and a nifty helper for viewing files in the command line, `tree`.
