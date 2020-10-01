@@ -1,4 +1,4 @@
-# Installfest 2020
+# Installfest
 
 ![](giphy.gif)
 
