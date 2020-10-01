@@ -121,7 +121,7 @@ Restart terminal. (cmd + Q and re-open)
 Ensure that node is installed with the following commands.
 
 ```
-nvm install 12.16.1
+nvm install 14
 ```
 
 ### VS Code
@@ -138,7 +138,6 @@ Copy and paste the options from the following gist and save:
 
 https://gist.git.generalassemb.ly/davidtwhitlatch/7b428260fee52ab113030751731ba97c
 
-
-### iTerm 2
-
-`brew cask install iterm2`
+### Extras
+[ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
