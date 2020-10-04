@@ -13,6 +13,12 @@ This includes:
 - VS Code
 - git
 
+## Windows Users
+
+Use the following link to set up your machines:[Windows Installfest](https://git.generalassemb.ly/SEI-R-10-5/Installfest-Windows)
+
+Once you've finished, skip the homebrew instructions and move ahead to Installing ZSH.
+
 ## Homebrew
 
 [Homebrew](https://brew.sh/) is an extremely popular and easy to use package manager for macOS. This is the tool we will use to install all of the software we need for this course.
