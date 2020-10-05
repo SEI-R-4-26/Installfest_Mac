@@ -15,7 +15,7 @@ This includes:
 
 ## Windows Users
 
-Use the following link to set up your machines:[Windows Installfest](https://git.generalassemb.ly/SEI-R-10-5/Installfest-Windows)
+Use the following link to set up your machines:[Windows Installfest](https://github.com/SEI-R-10-5/windows-installfest)
 
 Once you've finished, skip the homebrew instructions and move ahead to Installing ZSH.
 
