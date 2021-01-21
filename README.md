@@ -1,4 +1,4 @@
-# Installfest
+# Installfest: Mac Users
 
 ![](giphy.gif)
 
