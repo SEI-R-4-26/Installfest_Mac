@@ -217,6 +217,10 @@ xcode-select --install
 ```
 
 ```sh
+brew tap mongodb/brew
+```
+
+```sh
 brew tap | grep mongodb
 ```
 
