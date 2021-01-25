@@ -159,7 +159,7 @@ You'll now be prompted to password protect the ssh key, we can skip this portion
 Let's start the mac os ssh-agent, enter the following into your terminal:
 
 ```sh
-$ eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
 > Agent pid 59566
 ```
 
