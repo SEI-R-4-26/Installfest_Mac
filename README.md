@@ -11,7 +11,7 @@ We'll be installing most of the necessary tools for software engineering in this
 - Install Homebrew
 - Install Zsh and Oh-My-Zsh
 - Install Node
-- Install VsCode
+- Install VSCode
 - Install Git
 - Install Python
 - Install Heroku
@@ -20,9 +20,9 @@ We'll be installing most of the necessary tools for software engineering in this
 
 ## Installing Homebrew
 
-Homebrew is a package manager for Mac Os. It makes installing programs fast and easy.
+Homebrew is a package manager for Mac OS. It makes installing programs fast and easy.
 
-To Install Homebrew paste the following command into your terminal and hit the enter key:
+To install Homebrew, paste the following command into your terminal and hit the <kbd>return</kbd> key:
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -34,7 +34,7 @@ The above command will perform the installation for you.
 
 ### Zsh Installation
 
-What is Zsh? Zsh is a shell designed for interactive use, it provides us with useful shortcuts to execute terminal commands faster and also enables auto completion.
+What is Zsh? Zsh is a shell designed for interactive use. It provides us with useful shortcuts to execute terminal commands faster and also enables auto completion for those commands.
 
 To install Zsh, execute the following command in your terminal:
 
@@ -46,13 +46,13 @@ brew install zsh
 
 What is Oh-My-Zsh?
 
-> Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. It comes with a bunch of features out of the box and improves your terminal experience.
+> Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration. It comes with a bunch of features out of the box and improves your terminal experience.
 
-It also provides us with preset themes to make reading your terminal much easier.
+It also provides us with preset themes to make reading your terminal *much* easier.
 
-#### To install Oh-My-Zsh:
+#### To Install Oh-My-Zsh:
 
-Execute the following command's in your terminal:
+Execute the following commands in your terminal:
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -62,11 +62,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 chsh -s $(which zsh)
 ```
 
-## Installing NodeJs
+## Installing NodeJS
 
-What is NodeJS? NodeJS is a javascript runtime that allows us to execute Javascript outside of a browser.
+What is NodeJS? NodeJS is a JavaScript runtime that allows us to execute JavaScript outside of a browser.
 
-To intall NodeJS, execute the following in your terminal:
+To intall NodeJS, execute the following command in your terminal:
 
 ```sh
 brew install node
@@ -80,11 +80,11 @@ node -v
 
 You should see a node version listed.
 
-## Installing VsCode
+## Installing VSCode
 
-VsCode is going to be our text editor of choice throughout the course, it provides us with a wonderful environment to run and test our code.
+VSCode is going to be our text editor of choice throughout the course. It provides us with a wonderful environment to run and test our code.
 
-To install VsCode, execute the following in your terminal:
+To install VSCode, execute the following command in your terminal:
 
 ```sh
 brew install --cask visual-studio-code
@@ -96,48 +96,49 @@ Verify your installation by running:
 code .
 ```
 
-This should open a VsCode window.
+This should open a new VSCode window.
 
-If the above does not work, open VsCode which will be located in your Applications folder.
-Once a VsCode window opens, press and hold `cmd+shift+p ` to open the command pallete. In the command pallate, type in `path` and an option named:
+If the above does not work, open VSCode manually from your Applications folder.
+
+Once a VSCode window opens, press and hold <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>P</kbd> to open the *command palette*. In the command palette, type in `path` and choose the option:
 
 > Shell Command: Install `code` command in PATH.
 
-Select this option and reconfirm the `code .` command in your terminal.
+This should enable the ability to open VSCode from terminal with the `code .` command. Try it out.
 
 ## Installing Git
 
-Git is a version control manager that we'll be using in conjunction with Github to manage code updates during this course.
+Git is a version control manager that we'll be using in conjunction with GitHub to manage code updates during this course.
 
-To install Git, execute the following in your terminal:
+To install Git, execute the following command in your terminal:
 
 ```sh
 brew install git
 ```
 
-Once the installation completes, execute the following in your terminal, one by one.
+Once the installation completes, execute the following commands in your terminal, ***one by one***, with your information inserted:
 
 ```sh
-git config --global user.name "Your Name Here"
+git config --global user.name "Your Actual Name Here"
 ```
 
 ```sh
-git config --global user.email "your_email@youremail.com"
+git config --global user.email "your_email@example.com"
 ```
 
-Replace your name and email with the name and email you use on Github.
+The name and email should be the name and email you use on GitHub.
 
-### Setting Up Github Authentication
+### Setting Up GitHub Authentication
 
-In order for Github to deem our machines as "safe" to push code, we need to setup an identification key known as a `ssh key`.
+In order for GitHub to deem our machines as "safe" to push code, we need to setup an identification key known as an `ssh key`.
 
-Enter the following commands in your terminal:
+Enter the following commands in your terminal, with your information inserted:
 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-**NOTE**: Replace the above email with your github email!
+The above email should be your GitHub email!
 
 You should see the following prompt:
 
@@ -145,18 +146,16 @@ You should see the following prompt:
 > Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
 ```
 
-Hit enter to save it in a default file.
+Hit <kbd>return</kbd> to save it in a default file.
 
-You'll now be prompted to password protect the ssh key, we can skip this portion. When prompted with the following:
+You'll now be prompted to password protect the ssh key, but we can skip this portion. When prompted with the following, **hit** <kbd>return</kbd> **to leave the password as blank, both times**:
 
 ```sh
 > Enter passphrase (empty for no passphrase): [Type a passphrase]
 > Enter same passphrase again: [Type passphrase again]
 ```
 
-**Hit enter to leave the password as blank.**
-
-Let's start the mac os ssh-agent, enter the following into your terminal:
+Let's start the Mac OS ssh-agent. Enter the following command into your terminal:
 
 ```sh
 eval "$(ssh-agent -s)"
@@ -169,38 +168,38 @@ Now copy the ssh key to your clipboard:
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-To complete this setup, following the instructions starting from step 2 listed at this link **[HERE](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)**.
+To complete this setup, follow the instructions starting from Step 2 at this link **[HERE](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)**.
 
 ## Installing Python
 
 Python is a popular language that we'll be learning in Unit 4 of this course.
-We'll be installing Python3.
+Today, we'll be installing Python3.
 
-To install Python3, execute the following in your terminal:
+To install Python3, execute the following command in your terminal:
 
 ```sh
 brew install python
 ```
 
-To confirm your installation, execute the following in your terminal:
+To confirm your installation, execute the following command in your terminal:
 
 ```sh
 python --version
 ```
 
-You should see a python version listed.
+You should see a Python version listed.
 
 ## Installing Heroku
 
 Heroku is a hosting site that we'll be using to deploy projects throughout this course.
 
-Execute the following in your terminal:
+Execute the following command in your terminal:
 
 ```sh
 brew install heroku/brew/heroku
 ```
 
-The formula may not be latest, so we'll execute the next command to ensure the latest heroku cli get's installed:
+The formulae may not be latest, so we'll execute the next command to ensure the latest Heroku version is installed:
 
 ```sh
 heroku update
@@ -208,9 +207,9 @@ heroku update
 
 ## Installing MongoDB
 
-MongoDB is a document based database that we'll be using in this course.
+MongoDB is a document-based database that we'll be using in this course.
 
-To install MongoDB, execute the following commands in your terminal:
+To install MongoDB, execute the following commands in your terminal, ***one by one***:
 
 ```sh
 xcode-select --install
@@ -234,9 +233,9 @@ To start the mongo service:
 brew services start mongodb-community@4.4
 ```
 
-**NOTE**: the above command will keep MongoDB running in the backround on your machine even after shutdowns.
+**NOTE**: The above command will keep MongoDB running in the backround on your machine even after shutdown.
 
-To confirm your installation, enter the following in your terminal:
+To confirm your installation, enter the following command in your terminal:
 
 ```sh
 mongo
@@ -250,21 +249,21 @@ exit
 
 ## Installing PostgreSQL
 
-PostreSQL is going to be our column based database of choice for this course. PostgreSQL is an open source relational database management system (RDBMS).
+PostreSQL is going to be our column-based database of choice for this course. PostgreSQL is an open source relational database management system (RDBMS).
 
-To install PostgreSQL, execute the following in your terminal:
+To install PostgreSQL, execute the following command in your terminal:
 
 ```sh
 brew install postgres
 ```
 
-To confirm the installation, run the following in your terminal:
+To confirm the installation, run the following command in your terminal:
 
 ```sh
-postgres -V
+postgres -v
 ```
 
-Next enter the following command in your terminal:
+Next, enter the following command in your terminal:
 
 ```sh
 brew services start postgresql
@@ -272,13 +271,13 @@ brew services start postgresql
 
 This will ensure postgres remains running on our machines.
 
-Now create a database with your username:
+Now, create a database with your username:
 
 ```sh
 createdb `whoami`
 ```
 
-Confirm that you can enter the postgres shell:
+Confirm that you can enter the postgres shell with the following command:
 
 ```sh
 psql
@@ -292,7 +291,7 @@ To exit the shell:
 
 ## Recap
 
-At this point we've successfully installed all of the tools we'll be utilizing throughout this course!
+At this point, we've successfully installed all of the tools we'll be utilizing throughout this course!
 
 ## Resources
 
