@@ -4,7 +4,9 @@
 
 ## Overview
 
-We'll be installing most of the necessary tools for software engineering in this lesson. These tools are what we'll be utilizing during the course.
+We'll be installing most of the necessary tools for software engineering in this lesson. These tools are what we'll be utilizing during the course. 
+
+***It is so important that you follow all of these instructions to a T, without skipping ahead.  It is also very important, when working in the terminal, to ensure that you type everything exactly correctly before running the command. You are interacting with your computer's inner configurations, and each command should be treated with care and intention.***
 
 ## Objectives
 
