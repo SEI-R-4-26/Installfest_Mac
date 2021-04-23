@@ -297,4 +297,5 @@ At this point, we've successfully installed all of the tools we'll be utilizing 
 
 ## Resources
 
+- [Github SSH Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Mac Setup Guide](https://sourabhbajaj.com/mac-setup/)
