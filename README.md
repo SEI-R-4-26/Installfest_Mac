@@ -262,7 +262,7 @@ brew install postgres
 To confirm the installation, run the following command in your terminal:
 
 ```sh
-postgres -v
+postgres --version
 ```
 
 Next, enter the following command in your terminal:
