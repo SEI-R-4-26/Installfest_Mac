@@ -186,7 +186,7 @@ brew install python
 To confirm your installation, execute the following command in your terminal:
 
 ```sh
-python --version
+python3 --version
 ```
 
 You should see a Python version listed.
