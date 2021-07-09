@@ -10,6 +10,7 @@ We'll be installing most of the necessary tools for software engineering in this
 
 ## Objectives
 
+- Install Slack App
 - Install Homebrew
 - Install Zsh and Oh-My-Zsh
 - Install Node
@@ -19,6 +20,12 @@ We'll be installing most of the necessary tools for software engineering in this
 - Install Heroku
 - Install MongoDB
 - Install Postgres
+
+## Installing Slack
+
+Slack will be our ***primary*** mode of communication throughout this course.  In order to get the most out of it you'll want to download the desktop application [HERE](https://slack.com/downloads/).
+
+*It is not recommended to use the browser app during this course.*
 
 ## Installing Homebrew
 
