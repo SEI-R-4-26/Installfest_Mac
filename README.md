@@ -168,7 +168,6 @@ Let's start the Mac OS ssh-agent. Enter the following command into your terminal
 
 ```sh
 eval "$(ssh-agent -s)"
-> Agent pid 59566
 ```
 
 Now copy the ssh key to your clipboard:
